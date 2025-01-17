@@ -97,3 +97,21 @@ def negeer_afwijkende():
     else:
         print("Invalid choice. Try again.")
         negeer_afwijkende()
+
+# functie om bluf bewaker
+def bluf_bewaker():
+    print("\nStep 5: Connor successfully bluffs the guard and continues.")
+    betreed_beveiligde_ruimte()
+# functie om gebruiik geweld
+def gebruik_geweld():
+    print("\nStep 5: Connor uses force to neutralize the guard.")
+    print("Step 6: Alarms are triggered.")
+    keuze = input("Do you (1) disable the alarms or (2) rush to the objective? ")
+
+    if keuze == "1":
+        schakel_alarm_uit()
+    elif keuze == "2":
+        haast_naar_doel()
+    else:
+        print("Invalid choice. Try again.")
+        gebruik_geweld()
