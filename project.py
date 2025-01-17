@@ -41,3 +41,17 @@ def afwijk():
     else:
         print("Invalid choice. Try again.")
         afwijk()
+        
+#functie om kalm verder gaan
+def kalm_verder():
+    print("\nStep 3: Connor walks confidently through the checkpoint.")
+    print("Step 4: A guard stops him for questioning.")
+    keuze = input("Do you (1) bluff your way through or (2) use force? ")
+
+    if keuze == "1":
+        bluf_bewaker()
+    elif keuze == "2":
+        gebruik_geweld()
+    else:
+        print("Invalid choice. Try again.")
+        kalm_verder()
