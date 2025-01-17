@@ -69,3 +69,17 @@ def vermijd_detectie():
     else:
         print("Invalid choice. Try again.")
         vermijd_detectie()
+
+#functie om praat met afwijkende
+def praat_met_afwijkende():
+    print("\nStep 3: The deviant provides valuable intel about the facility.")
+    print("Step 4: He warns Connor about increased security.")
+    keuze = input("Do you (1) follow the deviant's advice or (2) take a different route? ")
+
+    if keuze == "1":
+        volg_advies()
+    elif keuze == "2":
+        andere_route()
+    else:
+        print("Invalid choice. Try again.")
+        praat_met_afwijkende()
