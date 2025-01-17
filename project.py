@@ -27,4 +27,17 @@ def volg_bevelen():
     else:
         print("Invalid choice. Try again.")
         volg_bevelen()
+# functie om afwijken van je missie
+def afwijk():
+    print("\nConnor decides to deviate from his mission.")
+    print("Step 1: Connor bypasses the main entrance.")
+    print("Step 2: He encounters a deviant android outside.")
+    keuze = input("Do you (1) talk to the deviant or (2) ignore and move on? ")
 
+    if keuze == "1":
+        praat_met_afwijkende()
+    elif keuze == "2":
+        negeer_afwijkende()
+    else:
+        print("Invalid choice. Try again.")
+        afwijk()
