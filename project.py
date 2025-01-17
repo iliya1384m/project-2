@@ -83,3 +83,17 @@ def praat_met_afwijkende():
     else:
         print("Invalid choice. Try again.")
         praat_met_afwijkende()
+
+# functie om negeer afwijkende
+def negeer_afwijkende():
+    print("\nStep 3: Connor ignores the deviant and enters the facility alone.")
+    print("Step 4: Security cameras spot him.")
+    keuze = input("Do you (1) disable the cameras or (2) proceed quickly? ")
+
+    if keuze == "1":
+        schakel_camera_uit()
+    elif keuze == "2":
+        ga_snel_verder()
+    else:
+        print("Invalid choice. Try again.")
+        negeer_afwijkende()
