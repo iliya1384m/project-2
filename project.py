@@ -41,7 +41,7 @@ def afwijk():
     else:
         print("Invalid choice. Try again.")
         afwijk()
-        
+
 #functie om kalm verder gaan
 def kalm_verder():
     print("\nStep 3: Connor walks confidently through the checkpoint.")
@@ -55,3 +55,17 @@ def kalm_verder():
     else:
         print("Invalid choice. Try again.")
         kalm_verder()
+
+#functie om vermijd detectie
+def vermijd_detectie():
+    print("\nStep 3: Connor finds an alternate route through the ventilation system.")
+    print("Step 4: He encounters a locked panel.")
+    keuze = input("Do you (1) hack the panel or (2) search for a keycard? ")
+
+    if keuze == "1":
+        hack_paneel()
+    elif keuze == "2":
+        zoek_sleutelkaart()
+    else:
+        print("Invalid choice. Try again.")
+        vermijd_detectie()
