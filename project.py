@@ -115,3 +115,21 @@ def gebruik_geweld():
     else:
         print("Invalid choice. Try again.")
         gebruik_geweld()
+
+# functie om hack baneel
+def hack_paneel():
+    print("\nStep 5: Connor hacks the panel and gains access to a restricted area.")
+    betreed_beveiligde_ruimte()
+# functie om zoek sleutelkaart
+def zoek_sleutelkaart():
+    print("\nStep 5: Connor searches for a keycard and finds one in a guard's locker.")
+    print("Step 6: The guard returns unexpectedly.")
+    keuze = input("Do you (1) hide or (2) confront the guard? ")
+
+    if keuze == "1":
+        verberg()
+    elif keuze == "2":
+        confronteer_bewaker()
+    else:
+        print("Invalid choice. Try again.")
+        zoek_sleutelkaart()
