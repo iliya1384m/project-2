@@ -183,3 +183,8 @@ def haast_naar_doel():
 def verberg():
     print("\nStep 7: Connor hides successfully and avoids the guard.")
     betreed_beveiligde_ruimte()
+
+# functie confronteer bewaker
+def confronteer_bewaker():
+    print("\nStep 7: Connor confronts the guard and gains access to the restricted area.")
+    betreed_beveiligde_ruimte()
