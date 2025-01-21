@@ -150,3 +150,8 @@ def andere_route():
     else:
         print("Invalid choice. Try again.")
         andere_route()
+
+# functie om schakel camera uit
+def schakel_camera_uit():
+    print("\nStep 5: Connor disables the cameras and avoids detection.")
+    betreed_beveiligde_ruimte()
