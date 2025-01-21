@@ -178,3 +178,8 @@ def haast_naar_doel():
     print("Game Over. Security is too tight, and the mission has failed.")
 # game over
     exit()
+
+# funcite verberg
+def verberg():
+    print("\nStep 7: Connor hides successfully and avoids the guard.")
+    betreed_beveiligde_ruimte()
