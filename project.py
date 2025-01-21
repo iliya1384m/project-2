@@ -188,3 +188,8 @@ def verberg():
 def confronteer_bewaker():
     print("\nStep 7: Connor confronts the guard and gains access to the restricted area.")
     betreed_beveiligde_ruimte()
+
+# functie sluip langs
+def sluip_langs():
+    print("\nStep 7: Connor sneaks past the checkpoint and reaches the restricted area.")
+    betreed_beveiligde_ruimte()
