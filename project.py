@@ -155,3 +155,8 @@ def andere_route():
 def schakel_camera_uit():
     print("\nStep 5: Connor disables the cameras and avoids detection.")
     betreed_beveiligde_ruimte()
+
+# functie om ga snel verder
+def ga_snel_verder():
+    print("\nStep 5: Connor proceeds quickly but leaves evidence of his presence.")
+    betreed_beveiligde_ruimte()
