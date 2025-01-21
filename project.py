@@ -193,3 +193,8 @@ def confronteer_bewaker():
 def sluip_langs():
     print("\nStep 7: Connor sneaks past the checkpoint and reaches the restricted area.")
     betreed_beveiligde_ruimte()
+
+# functie gebruik pas
+def gebruik_pas():
+    print("\nStep 7: Connor uses his badge to bypass security and enters the restricted area.")
+    betreed_beveiligde_ruimte()
