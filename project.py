@@ -176,3 +176,5 @@ def haast_naar_doel():
     print("\nStep 7: Connor rushes to the objective but leaves security on high alert.")
     print("Security has been alerted! The mission is over.")
     print("Game Over. Security is too tight, and the mission has failed.")
+# game over
+    exit()
