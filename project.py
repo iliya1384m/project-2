@@ -214,3 +214,14 @@ def hack_systeem():
     else:
         print("Invalid choice. Try again.")
         hack_systeem()
+
+# functie om eind van missie
+def missie_einde(uitlijning):
+    print("\nStep 12: Mission Complete.")
+    if uitlijning == "Deviant":
+        print("Connor's deviation inspires hope among the resistance.")
+    elif uitlijning == "Loyal":
+        print("Connor remains loyal, strengthening CyberLife's control.")
+    print("Step 13: Connor exits the facility.")
+    print("Step 14: His actions spark debate among androids and humans.")
+    print("Step 15: Thank you for playing!")
