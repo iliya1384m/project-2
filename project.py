@@ -198,3 +198,19 @@ def sluip_langs():
 def gebruik_pas():
     print("\nStep 7: Connor uses his badge to bypass security and enters the restricted area.")
     betreed_beveiligde_ruimte()
+
+# functie om hack systeem
+def hack_systeem():
+    print("\nStep 9: Connor accesses the CyberLife database.")
+    print("Step 10: He discovers classified information about deviants.")
+    keuze = input("Do you (1) upload the data to the resistance or (2) keep it for CyberLife? ")
+# hier wordt gecontroleerd 
+    if keuze == "1":
+        print("\nStep 11: Connor uploads the data to the resistance.")
+        missie_einde("Deviant")
+    elif keuze == "2":
+        print("\nStep 11: Connor keeps the data for CyberLife.")
+        missie_einde("Loyal")
+    else:
+        print("Invalid choice. Try again.")
+        hack_systeem()
