@@ -150,3 +150,20 @@ def andere_route():
     else:
         print("Invalid choice. Try again.")
         andere_route()
+# functie om schakel camera uit
+def schakel_camera_uit():
+    print("\nStep 5: Connor disables the cameras and avoids detection.")
+    betreed_beveiligde_ruimte()
+# functie om ga snel verder
+def ga_snel_verder():
+    print("\nStep 5: Connor proceeds quickly but leaves evidence of his presence.")
+    betreed_beveiligde_ruimte()
+# functie om betreed beveiligde ruimte
+def betreed_beveiligde_ruimte():
+    print("\nStep 7: Connor enters the restricted area.")
+    print("Step 8: He finds the CyberLife database.")
+    hack_systeem()
+# functie om schakel alarm uit
+def schakel_alarm_uit():
+    print("\nStep 7: Connor disables the alarms and continues.")
+    betreed_beveiligde_ruimte()
