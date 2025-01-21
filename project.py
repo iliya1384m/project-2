@@ -133,3 +133,20 @@ def zoek_sleutelkaart():
     else:
         print("Invalid choice. Try again.")
         zoek_sleutelkaart()
+
+# functie om volg advies
+def volg_advies():
+    print("\nStep 5: Connor avoids detection by following the deviant's advice.")
+    betreed_beveiligde_ruimte()
+# functie om andere route
+def andere_route():
+    print("\nStep 5: Connor takes a different route but faces a security checkpoint.")
+    keuze = input("Do you (1) sneak past or (2) use your badge to bypass? ")
+
+    if keuze == "1":
+        sluip_langs()
+    elif keuze == "2":
+        gebruik_pas()
+    else:
+        print("Invalid choice. Try again.")
+        andere_route()
