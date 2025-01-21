@@ -160,3 +160,8 @@ def schakel_camera_uit():
 def ga_snel_verder():
     print("\nStep 5: Connor proceeds quickly but leaves evidence of his presence.")
     betreed_beveiligde_ruimte()
+
+# functie om betreed beveiligde ruimte
+def betreed_beveiligde_ruimte():
+    print("\nStep 7: Connor enters the restricted area.")
+    print("Step 8: He finds the CyberLife database.")
