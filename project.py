@@ -225,3 +225,7 @@ def missie_einde(uitlijning):
     print("Step 13: Connor exits the facility.")
     print("Step 14: His actions spark debate among androids and humans.")
     print("Step 15: Thank you for playing!")
+
+# Start het spel
+if __name__ == "__main__":
+    start_missie()
