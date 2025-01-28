@@ -165,6 +165,7 @@ def ga_snel_verder():
 def betreed_beveiligde_ruimte():
     print("\nStep 7: Connor enters the restricted area.")
     print("Step 8: He finds the CyberLife database.")
+    hack_systeem()
 
 # functie om schakel alarm uit
 def schakel_alarm_uit():
